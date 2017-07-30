@@ -2,7 +2,7 @@ package classes;
 
 public class Player {
 	// placeholder boolean, replace later
-	boolean gameStartedplaceholder = false;
+	static boolean gameStartedplaceholder = false;
 
 	private int playerX;
 	private int playerY;
@@ -16,7 +16,7 @@ public class Player {
 	}
 
 	public static void main(String[] args) {
-		while (gameStartedplaceholder == true) {
+		while (gameStartedplaceholder) {
 
 		}
 	}
